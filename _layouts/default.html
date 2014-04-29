@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+	<body>
+		{{ content }}
+		<script>
+		var width = $(window).width()
+		if ( width > 899 )
+		$( function(){
+		    $.stellar({
+		    	responsive: true,
+			verticalScrolling: true,
+			horizontalOffset: 0,
+			verticalOffset: 0,
+			positionProperty: 'transform',
+		    });
+		});
+		</script>
+		<script src="/assets/js/simpleCart.js"></script>
+		<script>
+		  simpleCart({
+		  	currency:'EUR',
+		  	language:'catalan',
+		  	cartStyle:'table',
+		  	shippingFlatRate: 3,
+		  	cartColumns			: [
+						{ attr: "name", label: "Nom" },
+						{ attr: "size", label: "Talla" },
+						{ attr: "price", label: "Preu", view: 'currency' },
+						{ view: "decrement", label: false },
+						{ attr: "quantity", label: "Quantitat" },
+						{ view: "increment", label: false },
+						{ attr: "total", label: "SubTotal", view: 'currency' },
+						{ view: "remove", text: "Esborrar <span class='glyphicon glyphicon-remove'></span>", label: false }
+					],
+		    checkout: {
+		      type: "PayPal",
+		      email: "info@artinpocket.cat"
+		    }
+		  });
+		</script>
+
+	</body>
+</html>

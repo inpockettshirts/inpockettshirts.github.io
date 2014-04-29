@@ -1,0 +1,64 @@
+# Dependencies
+markdown:	kramdown
+pygments:	true
+
+# Permalinks
+permalink:	/blog/:title
+
+# Setup
+url:      /
+title:		Inpocketshirts
+tagline:	"L'art per emportar d'Artinpocket"
+description:	"Art per portar posat, art amb la gent, per a la gent i per la gent."
+commentsystem:	google
+disqus:		example
+
+author:
+  name:		'Ramon Gil Paredes'
+  url:		https://google.com/+RamonGilParedes
+
+paginate:	1
+
+# Custom vars
+icon:		/assets/images/logo-artinpocket-inpockettshirts.png
+cover:		/assets/images/01-bg-artinpocket-takeaway.jpg
+
+social:
+  - icon:	twitter
+    url:	https://twitter.com/artinpocket
+    desc:	Follow us on twitter
+
+  - icon:	facebook
+    url:	https://www.facebook.com/pages/Artinpocket/617130554970586
+    desc:	Follow us on facebook
+
+  - icon:	googleplus-alt
+    url:	https://google.com/117864840233265596562
+    desc:	Add us on google+
+
+  - icon:	feed
+    url:	http://inpocketshirts.com/atom.xml
+    desc:	Subscribe to my feed
+    
+menu:
+  - title:	Home
+    url:	/
+    
+  - title:	Qui som
+    url:	/blog/qui-som/
+    
+  - title:  El projecte
+    url:  /blog/el-projecte/
+    
+  - title:  FAQs
+    url:  /blog/preguntes-frequents/
+    
+copyright:
+  author:	Inpocketshirts
+  url:		http://inpocketshirts.com
+  type_title:	Some rights reserved
+  type_url:	http://creativecommons.org/licenses/by-nc/2.5
+  author_origin: Artinpocket
+  author_orgin_url: http://www.artinpocket.creativecommons
+  author_agency: Oxygen.cat
+  author_agency_url: http://www.oxygen.cat
