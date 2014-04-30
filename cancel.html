@@ -1,0 +1,16 @@
+---
+layout: fullscreen
+title: "Cacnel"
+image: /assets/images/samarreta-dona-artinpocket-reverse-full.jpg
+---
+
+<div id="post-info">
+	<p id="404" style="text-align: center; color: #fff; opacity: .75; font-weight: bold;">NYEC!</p>
+	<h2 style="text-align: center;">Vaja, sembla que no ha anat bé. Necessites ajuda? Revisa les nostres {% for item in site.menu limit:1 offset:3 %}<a href="{{ item.url }}">{{ item.title }}</a>{% endfor %} o envia'ns un correu a <a href="mailto:info@artinpocket.cat">info@artinpocket.cat</a></h2>
+</div>
+<div id="nav-icon" style="bottom: 50px;">
+	<a href="{{ site.url }}"><span class="genericon genericon-home"></span></a>
+</div>
+<p class="copyright">&copy;{{ site.time | date: "%Y" }}, <a href="{{ site.copyright.url }}" target="_blank">{{ site.copyright.author }}</a>. <a href="{{ site.copyright.type_url }}" target="_blank">{{ site.copyright.type_title }}</a>.</p>
+<script src="/assets/js/jquery.fittext.js"></script>
+<script type="text/javascript">jQuery("#404").fitText(0.48, { maxFontSize: '140px' })</script>
