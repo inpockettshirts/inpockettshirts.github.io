@@ -17,7 +17,7 @@ article: true
 		{% if page.quote %}
 			<h2>{{ page.quote }}</h2>
 		{% endif %}
-		<a class="site-title" href="{{ site.url }}"><div class="site-icon-small" style="background-image: url({{ site.icon }});"></div>{{ site.title }}</a>, em {{ page.date | date: "%-d de "}}{% assign m = page.date | date: "%-m" %}{% case m %}{% when '1' %}janeiro{% when '2' %}fevereiro{% when '3' %}março{% when '4' %}abril{% when '5' %}maio{% when '6' %}junho{% when '7' %}julho{% when '8' %}agosto{% when '9' %}setembro{% when '10' %}outubro{% when '11' %}novembro{% when '12' %}dezembro{% endcase %}{{ page.date | date: " de %Y" }}
+		<a class="site-title" href="{{ site.url }}"><div class="site-icon-small" style="background-image: url({{ site.icon }});"></div>{{ site.title }}</a>, a {{ page.date | date: "%-d de "}}{% assign m = page.date | date: "%-m" %}{% case m %}{% when '1' %}gener{% when '2' %}febrer{% when '3' %}març{% when '4' %}abril{% when '5' %}maig{% when '6' %}juny{% when '7' %}julio{% when '8' %}agost{% when '9' %}setembre{% when '10' %}ocutbre{% when '11' %}novembre{% when '12' %}desembre{% endcase %}{{ page.date | date: " de %Y" }}
 	</div>
 	{% if page.image.source %}
 	<div id="img-info" data-stellar-ratio="0.5">
@@ -40,14 +40,14 @@ article: true
 	
 	<div class="container">
 		<hr/>
-			<p class="text-center"><a href="/botiga.html" class="btn btn-primary">Torna a la botiga</a></p>
+			<p class="text-center"><a href="/botiga.html" class="btn btn-primary">Accés a la botiga</a></p>
 		<hr/>
 	</div>
 </div>
 {% if page.next %}
 	{% capture footer_style %}{% if page.next.dark %}dark{% else %}clean{% endif %}{% endcapture %}
 	{% capture footer_image %}{% if page.next.image.url %}{{ page.next.image.url }}{% else %}{{ site.cover }}{% endif %}{% endcapture %}
-	{% capture footer_message %}Leia a seguir{% endcapture %}
+	{% capture footer_message %}Segueix llegint{% endcapture %}
 	{% capture footer_url %}{{ page.next.url }}{% endcapture %}
 	{% capture footer_title %}{{ page.next.title }}{% endcapture %}
 	{% capture footer_quote %}{{ page.next.quote }}{% endcapture %}
@@ -55,7 +55,7 @@ article: true
 	{% for post in site.related_posts limit:1 %}
 		{% capture footer_style %}{% if post.dark %}dark{% else %}clean{% endif %}{% endcapture %}
 		{% capture footer_image %}{% if post.image.url %}{{ post.image.url }}{% else %}{{ site.cover }}{% endif %}{% endcapture %}
-		{% capture footer_message %}Em destaque{% endcapture %}
+		{% capture footer_message %}Destacat{% endcapture %}
 		{% capture footer_url %}{{ post.url }}{% endcapture %}
 		{% capture footer_title %}{{ post.title }}{% endcapture %}
 		{% capture footer_quote %}{{ post.quote }}{% endcapture %}

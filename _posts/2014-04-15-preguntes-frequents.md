@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Preguntes freqüents"
-quote: "Totes les samarretes tenen el mateix preu, 25 euros"
+quote: "Totes les samarretes tenen el mateix preu, 35 euros"
 image: 
   url: /media/2014-04-15-el-preguntes-frequents/03-bg-artinpocket-takeaway.jpg
 video: false
 comments: false
 ---
 
-Totes les samarretes tenen el mateix preu, **25 euros** on cal sumar-hi la despesa d'enviament i es venen amb la plataforma PayPal (amb registre o sense).
+Totes les samarretes tenen el mateix preu, **35 euros** on cal sumar-hi la despesa d'enviament i es venen amb la plataforma PayPal (amb registre o sense).
 
 ##On i quan es rep la comanda?
 
