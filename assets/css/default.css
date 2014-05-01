@@ -567,3 +567,8 @@ figure.item {
 .text-center {
 	text-align: center;
 }
+div.item p input.item_Quantity {
+	width: 10px;
+	text-align: center;
+	display: inline;
+}
