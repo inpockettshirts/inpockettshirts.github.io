@@ -16,7 +16,8 @@
 		    });
 		});
 		</script>
-		<script src="/assets/js/simpleCart.js"></script>
+		{% if page.title == 'Home' or page.title == 'Botiga' %}
+		<script src="/assets/js/simpleCart.min.js"></script>
 		<script>
 		  simpleCart({
 		  	currency:'EUR',
@@ -41,6 +42,7 @@
 		    }
 		  });
 		</script>
+		{% endif %}
 
 	</body>
 </html>
