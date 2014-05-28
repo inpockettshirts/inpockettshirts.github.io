@@ -12,21 +12,10 @@
 	<meta property="og:url" content="{{ canonical }}" />
 	<meta property="og:site_name" content="{{ site.title }}" />{% endif %}
 	<title>{% if page.title == "Home" %}{{ site.title }} &middot; {{ site.tagline }}{% else %}{{ page.title }} &middot; {{ site.title }}{% endif %}</title>
-	<meta name="mobile-web-app-capable" content="yes">
+  	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+  	<meta name="mobile-web-app-capable" content="yes">
+  	<meta name="apple-mobile-web-app-capable" content="yes">
+  	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<meta name="HandheldFriendly" content="True" />
 	<meta name="MobileOptimized" content="320" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<link rel="stylesheet" type="text/css" href="/vendor/bootstrap/css/bootstrap-custom.min.css" />
-	<link rel="stylesheet" type="text/css" media="only screen and (min-width: 900px)" href="/assets/css/desktop.min.css" />
-	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 899px)" href="/assets/css/mobile.min.css" />
-	<link href="/assets/css/genericons.min.css" type="text/css" rel="stylesheet" />
-	<link href="/assets/css/syntax.min.css" type="text/css" rel="stylesheet" />
-	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Fenix:400,400italic">
-	<link rel="apple-touch-icon" href="{{ site.url }}{{ site.icon }}">
-	<link rel="shortcut icon" href="{{ site.url }}/assets/images/favicon.ico">
-	<link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.url }}/atom.xml">
-	<meta name="google-site-verification" content="dxHJfJrwqWqaCiGZcfJ6xGM5n15rRRgS6ae699FLo3w" />	
-	<script type="text/javascript" src="/assets/js/jquery-2.1.0.min.js"></script>
-	<script type="text/javascript" src="/assets/js/jquery.stellar.min.js"></script>
-	<script type="text/javascript" src="/vendor/bootstrap/js/bootstrap.min.js"></script>
 </head>
