@@ -563,6 +563,11 @@ figure img {
 figure.item {
 	margin: 1em!important;
 }
+figure.item img {
+	padding: 1rem;
+	background: #ffffff;
+	max-width: 88%;
+}
 
 .text-center {
 	text-align: center;
