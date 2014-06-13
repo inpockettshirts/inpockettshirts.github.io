@@ -19,6 +19,6 @@ L'artesania comprèn, bàsicament, obres i treballs realitzats manualment i amb 
     </figcaption>
 </figure>  
 
-El nostre objectiu era fer una edició limmitada per diferenciar-nos del conusm de massa de les grans marques de roba, voliem una peça exclusiva, oferir als nostres seguidors una oportunitat única d'adquirir aquesta peça exclusiva. 
+El nostre objectiu era fer una edició limitada per diferenciar-nos del consum de massa de les grans marques de roba, voliem una peça exclusiva, oferir als nostres seguidors una oportunitat única d'adquirir aquesta peça exclusiva. 
 
 Us oferim la nostra samarreta: **artesana, personalitzada i feta a mà, en definitiva una obra d'art** que en podràs presumir a un preu immillorable. 
