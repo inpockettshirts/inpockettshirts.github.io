@@ -6,7 +6,7 @@ highlighter: pygments
 permalink:	/blog/:title
 
 # Setup
-url:      http://www.inpockettshirts.com
+url:      http://inpockettshirts.github.io
 title:		Inpocketshirts
 tagline:	"L'art per emportar d'Artinpocket"
 description:	"Art per portar posat, art amb la gent, per a la gent i per la gent."
