@@ -45,13 +45,13 @@ menu:
     url:	/
     
   - title:	Qui som
-    url:	/blog/qui-som/
+    url:	/blog/qui-som
     
   - title:  El projecte
-    url:  /blog/el-projecte/
+    url:  /blog/el-projecte
     
   - title:  FAQs
-    url:  /blog/preguntes-frequents/
+    url:  /blog/preguntes-frequents
     
 copyright:
   author:	Inpocketshirts
